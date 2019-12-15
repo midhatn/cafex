@@ -26,5 +26,8 @@ Spree.dependencies do |dependencies|
   # dependencies.cart_add_item_service = 'MyNewAwesomeService'
 end
 
+Spree.config do |config|
+  config.logo = 'my_new_logo.png'
+end
 
 Spree.user_class = "Spree::User"
