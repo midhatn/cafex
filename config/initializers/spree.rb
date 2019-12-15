@@ -29,5 +29,7 @@ end
 Spree.config do |config|
   config.logo = 'my_new_logo.png'
 end
-
+Spree.config do |config|
+  config.admin_interface_logo = 'my_new_admin_logo.png'
+end
 Spree.user_class = "Spree::User"
